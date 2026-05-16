@@ -1,0 +1,6 @@
+@SmartStay.Payments.API_HostAddress = http://localhost:5266
+
+GET {{SmartStay.Payments.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
