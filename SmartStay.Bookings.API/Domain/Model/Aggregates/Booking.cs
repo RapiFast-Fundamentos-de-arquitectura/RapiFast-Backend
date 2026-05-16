@@ -35,6 +35,7 @@ public partial class Booking
 
     /// <summary>
     /// The unique identifier of the booking.
+    /// The Generic Style Guides
     /// </summary>
     public int Id { get; }
     
