@@ -1,5 +1,4 @@
-﻿using SmartStay.SharedKernel.Domain.Repositories;
-using SmartStay.SharedKernel.Infrastructure.Persistence.EFC.Configuration;
+using SmartStay.SharedKernel.Domain.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 namespace SmartStay.SharedKernel.Infrastructure.Persistence.EFC.Repositories;
@@ -10,13 +9,13 @@ namespace SmartStay.SharedKernel.Infrastructure.Persistence.EFC.Repositories;
 /// <typeparam name="TEntity">The type of the domain entity.</typeparam>
 public class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : class
 {
-    protected readonly AppDbContext Context;
+    protected readonly DbContext Context;
 
     /// <summary>
     /// Initializes a new instance of the <see cref="BaseRepository{TEntity}"/> class.
     /// </summary>
     /// <param name="context">The database context.</param>
-    protected BaseRepository(AppDbContext context)
+    protected BaseRepository(DbContext context)
     {
         Context = context;
     }
@@ -51,4 +50,3 @@ public class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : 
         return await Context.Set<TEntity>().ToListAsync();
     }
 }
-

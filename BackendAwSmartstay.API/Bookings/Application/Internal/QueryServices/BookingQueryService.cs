@@ -1,9 +1,9 @@
-using BackendAwSmartstay.API.Bookings.Domain.Model.Aggregates;
-using BackendAwSmartstay.API.Bookings.Domain.Model.Queries;
-using BackendAwSmartstay.API.Bookings.Domain.Repositories;
-using BackendAwSmartstay.API.Bookings.Domain.Services;
+using SmartStay.Bookings.API.Domain.Model.Aggregates;
+using SmartStay.Bookings.API.Domain.Model.Queries;
+using SmartStay.Bookings.API.Domain.Repositories;
+using SmartStay.Bookings.API.Domain.Services;
 
-namespace BackendAwSmartstay.API.Bookings.Application.Internal.QueryServices;
+namespace SmartStay.Bookings.API.Application.Internal.QueryServices;
 
 /// <summary>
 /// Service implementation for handling booking queries.

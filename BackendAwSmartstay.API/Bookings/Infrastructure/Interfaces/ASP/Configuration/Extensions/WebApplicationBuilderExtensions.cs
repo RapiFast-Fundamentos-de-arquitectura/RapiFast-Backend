@@ -1,10 +1,10 @@
-using BackendAwSmartstay.API.Bookings.Application.Internal.CommandServices;
-using BackendAwSmartstay.API.Bookings.Application.Internal.QueryServices;
-using BackendAwSmartstay.API.Bookings.Domain.Repositories;
-using BackendAwSmartstay.API.Bookings.Domain.Services;
-using BackendAwSmartstay.API.Bookings.Infrastructure.Persistence.EFC.Repositories;
+using SmartStay.Bookings.API.Application.Internal.CommandServices;
+using SmartStay.Bookings.API.Application.Internal.QueryServices;
+using SmartStay.Bookings.API.Domain.Repositories;
+using SmartStay.Bookings.API.Domain.Services;
+using SmartStay.Bookings.API.Infrastructure.Persistence.EFC.Repositories;
 
-namespace BackendAwSmartstay.API.Bookings.Infrastructure.Interfaces.ASP.Configuration.Extensions;
+namespace SmartStay.Bookings.API.Infrastructure.Interfaces.ASP.Configuration.Extensions;
 
 public static class WebApplicationBuilderExtensions
 {

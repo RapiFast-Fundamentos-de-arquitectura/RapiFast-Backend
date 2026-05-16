@@ -1,7 +1,7 @@
-using BackendAwSmartstay.API.Bookings.Domain.Model.Aggregates;
-using BackendAwSmartstay.API.Shared.Domain.Repositories;
+using SmartStay.Bookings.API.Domain.Model.Aggregates;
+using SmartStay.SharedKernel.Domain.Repositories;
 
-namespace BackendAwSmartstay.API.Bookings.Domain.Repositories;
+namespace SmartStay.Bookings.API.Domain.Repositories;
 
 /// <summary>
 /// Repository interface for managing Booking aggregates.

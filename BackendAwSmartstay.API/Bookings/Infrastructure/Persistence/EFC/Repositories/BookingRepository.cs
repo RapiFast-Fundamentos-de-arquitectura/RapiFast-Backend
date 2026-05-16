@@ -1,9 +1,9 @@
-using BackendAwSmartstay.API.Bookings.Domain.Model.Aggregates;
-using BackendAwSmartstay.API.Bookings.Domain.Repositories;
-using BackendAwSmartstay.API.Shared.Infrastructure.Persistence.EFC.Configuration;
-using BackendAwSmartstay.API.Shared.Infrastructure.Persistence.EFC.Repositories;
+using SmartStay.Bookings.API.Domain.Model.Aggregates;
+using SmartStay.Bookings.API.Domain.Repositories;
+using SmartStay.SharedKernel.Infrastructure.Persistence.EFC.Configuration;
+using SmartStay.SharedKernel.Infrastructure.Persistence.EFC.Repositories;
 
-namespace BackendAwSmartstay.API.Bookings.Infrastructure.Persistence.EFC.Repositories;
+namespace SmartStay.Bookings.API.Infrastructure.Persistence.EFC.Repositories;
 
 public class BookingRepository(AppDbContext context) : BaseRepository<Booking>(context), IBookingRepository;
 

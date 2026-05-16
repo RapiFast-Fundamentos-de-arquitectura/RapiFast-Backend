@@ -1,7 +1,7 @@
-using BackendAwSmartstay.API.Bookings.Domain.Model.Aggregates;
-using BackendAwSmartstay.API.Bookings.Interfaces.REST.Resources;
+using SmartStay.Bookings.API.Domain.Model.Aggregates;
+using SmartStay.Bookings.API.Interfaces.REST.Resources;
 
-namespace BackendAwSmartstay.API.Bookings.Interfaces.REST.Transform;
+namespace SmartStay.Bookings.API.Interfaces.REST.Transform;
 
 public static class BookingResourceFromEntityAssembler
 {

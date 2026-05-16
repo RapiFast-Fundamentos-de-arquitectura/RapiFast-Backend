@@ -1,7 +1,7 @@
-using BackendAwSmartstay.API.Bookings.Domain.Model.Aggregates;
-using BackendAwSmartstay.API.Bookings.Domain.Model.Commands;
+using SmartStay.Bookings.API.Domain.Model.Aggregates;
+using SmartStay.Bookings.API.Domain.Model.Commands;
 
-namespace BackendAwSmartstay.API.Bookings.Domain.Services;
+namespace SmartStay.Bookings.API.Domain.Services;
 
 /// <summary>
 /// Defines the contract for services that handle booking state changes (Create, Confirm, Cancel).

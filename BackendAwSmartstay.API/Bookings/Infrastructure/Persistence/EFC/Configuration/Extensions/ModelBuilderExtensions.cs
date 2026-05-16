@@ -1,7 +1,7 @@
-using BackendAwSmartstay.API.Bookings.Domain.Model.Aggregates;
+using SmartStay.Bookings.API.Domain.Model.Aggregates;
 using Microsoft.EntityFrameworkCore;
 
-namespace BackendAwSmartstay.API.Bookings.Infrastructure.Persistence.EFC.Configuration.Extensions;
+namespace SmartStay.Bookings.API.Infrastructure.Persistence.EFC.Configuration.Extensions;
 
 public static class ModelBuilderExtensions
 {

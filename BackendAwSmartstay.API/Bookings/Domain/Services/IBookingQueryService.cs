@@ -1,7 +1,7 @@
-using BackendAwSmartstay.API.Bookings.Domain.Model.Aggregates;
-using BackendAwSmartstay.API.Bookings.Domain.Model.Queries;
+using SmartStay.Bookings.API.Domain.Model.Aggregates;
+using SmartStay.Bookings.API.Domain.Model.Queries;
 
-namespace BackendAwSmartstay.API.Bookings.Domain.Services;
+namespace SmartStay.Bookings.API.Domain.Services;
 
 /// <summary>
 /// Defines the contract for services that handle booking queries.
