@@ -1,4 +1,4 @@
-namespace BackendAwSmartstay.API.Bookings.Domain.Model.Queries;
+namespace SmartStay.Bookings.API.Domain.Model.Queries;
 
 /// <summary>
 /// Query to retrieve a booking by its identifier.

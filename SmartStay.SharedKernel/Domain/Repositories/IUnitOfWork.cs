@@ -1,4 +1,4 @@
-﻿namespace SmartStay.SharedKernel.Domain.Repositories;
+namespace SmartStay.SharedKernel.Domain.Repositories;
 
 /// <summary>
 /// Represents a unit of work for managing transactions across repositories.
@@ -11,4 +11,3 @@ public interface IUnitOfWork
     /// <returns>A task representing the asynchronous operation.</returns>
     Task CompleteAsync();
 }
-

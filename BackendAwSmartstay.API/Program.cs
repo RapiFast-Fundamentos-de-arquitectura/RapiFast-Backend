@@ -1,14 +1,14 @@
 using BackendAwSmartstay.API.Accommodations.Infrastructure.Interfaces.ASP.Configuration.Extensions;
-using BackendAwSmartstay.API.Bookings.Infrastructure.Interfaces.ASP.Configuration.Extensions;
+using SmartStay.Bookings.API.Infrastructure.Interfaces.ASP.Configuration.Extensions;
 using BackendAwSmartstay.API.Payments.Infrastructure.Interfaces.ASP.Configuration.Extensions;
-using BackendAwSmartstay.API.Shared.Infrastructure.Documentation.OpenApi.Configuration.Extensions;
-using BackendAwSmartstay.API.Shared.Infrastructure.Interfaces.ASP.Configuration;
-using BackendAwSmartstay.API.Shared.Infrastructure.Interfaces.ASP.Configuration.Extensions;
-using BackendAwSmartstay.API.Shared.Infrastructure.Mediator.Cortex.Configuration.Extensions;
+using SmartStay.SharedKernel.Infrastructure.Documentation.OpenApi.Configuration.Extensions;
+using SmartStay.SharedKernel.Infrastructure.Interfaces.ASP.Configuration;
+using SmartStay.SharedKernel.Infrastructure.Interfaces.ASP.Configuration.Extensions;
+using SmartStay.SharedKernel.Infrastructure.Mediator.Cortex.Configuration.Extensions;
 using BackendAwSmartstay.API.IAM.Infrastructure.Interfaces.ASP.Configuration.Extensions;
 using BackendAwSmartstay.API.IAM.Infrastructure.Pipeline.Middleware.Extensions;
 using BackendAwSmartstay.API.Profiles.Infrastructure.Interfaces.ASP.Configuration.Extensions;
-using BackendAwSmartstay.API.shared.Infrastructure.Persistence.EFC.Configuration.Extensions;
+using SmartStay.SharedKernel.Infrastructure.Persistence.EFC.Configuration.Extensions;
 using BackendAwSmartstay.API.Analytics.Infrastructure.Interfaces.ASP.Configuration.Extensions;
 using DotNetEnv;
 

@@ -1,13 +1,13 @@
 using System.Net.Mime;
-using BackendAwSmartstay.API.Bookings.Domain.Model.Commands;
-using BackendAwSmartstay.API.Bookings.Domain.Model.Queries;
-using BackendAwSmartstay.API.Bookings.Domain.Services;
-using BackendAwSmartstay.API.Bookings.Interfaces.REST.Resources;
-using BackendAwSmartstay.API.Bookings.Interfaces.REST.Transform;
+using SmartStay.Bookings.API.Domain.Model.Commands;
+using SmartStay.Bookings.API.Domain.Model.Queries;
+using SmartStay.Bookings.API.Domain.Services;
+using SmartStay.Bookings.API.Interfaces.REST.Resources;
+using SmartStay.Bookings.API.Interfaces.REST.Transform;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 
-namespace BackendAwSmartstay.API.Bookings.Interfaces.REST;
+namespace SmartStay.Bookings.API.Interfaces.REST;
 
 /// <summary>
 /// REST controller for managing bookings.

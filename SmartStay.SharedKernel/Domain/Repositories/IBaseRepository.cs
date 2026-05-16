@@ -1,4 +1,4 @@
-﻿namespace SmartStay.SharedKernel.Domain.Repositories;
+namespace SmartStay.SharedKernel.Domain.Repositories;
 
 /// <summary>
 /// Provides basic repository operations for domain entities.
@@ -38,4 +38,3 @@ public interface IBaseRepository<TEntity>
     /// <returns>A collection of all entities.</returns>
     Task<IEnumerable<TEntity>> ListAsync();
 }
-

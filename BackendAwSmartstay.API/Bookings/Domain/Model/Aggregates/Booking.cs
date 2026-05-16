@@ -1,6 +1,6 @@
-using BackendAwSmartstay.API.Bookings.Domain.Model.Commands;
+using SmartStay.Bookings.API.Domain.Model.Commands;
 
-namespace BackendAwSmartstay.API.Bookings.Domain.Model.Aggregates;
+namespace SmartStay.Bookings.API.Domain.Model.Aggregates;
 
 /// <summary>
 /// Represents a booking aggregate in the domain, encapsulating booking-related business logic.

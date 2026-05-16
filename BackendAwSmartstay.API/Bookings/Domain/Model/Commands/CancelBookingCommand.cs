@@ -1,4 +1,4 @@
-namespace BackendAwSmartstay.API.Bookings.Domain.Model.Commands;
+namespace SmartStay.Bookings.API.Domain.Model.Commands;
 
 /// <summary>
 /// Command to cancel a booking.

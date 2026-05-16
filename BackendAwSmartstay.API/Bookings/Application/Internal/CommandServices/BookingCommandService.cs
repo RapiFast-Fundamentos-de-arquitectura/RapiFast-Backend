@@ -1,10 +1,10 @@
-using BackendAwSmartstay.API.Bookings.Domain.Model.Aggregates;
-using BackendAwSmartstay.API.Bookings.Domain.Model.Commands;
-using BackendAwSmartstay.API.Bookings.Domain.Repositories;
-using BackendAwSmartstay.API.Bookings.Domain.Services;
-using BackendAwSmartstay.API.Shared.Domain.Repositories;
+using SmartStay.Bookings.API.Domain.Model.Aggregates;
+using SmartStay.Bookings.API.Domain.Model.Commands;
+using SmartStay.Bookings.API.Domain.Repositories;
+using SmartStay.Bookings.API.Domain.Services;
+using SmartStay.SharedKernel.Domain.Repositories;
 
-namespace BackendAwSmartstay.API.Bookings.Application.Internal.CommandServices;
+namespace SmartStay.Bookings.API.Application.Internal.CommandServices;
 
 /// <summary>
 /// Service implementation for handling booking commands.

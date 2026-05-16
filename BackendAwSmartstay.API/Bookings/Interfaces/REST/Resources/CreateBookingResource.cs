@@ -1,4 +1,4 @@
-namespace BackendAwSmartstay.API.Bookings.Interfaces.REST.Resources;
+namespace SmartStay.Bookings.API.Interfaces.REST.Resources;
 
 /// <summary>
 /// Represents a resource for creating a new booking, containing the necessary data for booking creation.
