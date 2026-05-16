@@ -6,7 +6,7 @@ using SmartStay.SharedKernel.Domain.Repositories;
 
 namespace SmartStay.Bookings.API.Application.Internal.CommandServices;
 
-/// <summary>
+/// <summary> 
 /// Service implementation for handling booking commands.
 /// Orchestrates the flow between the repository and the domain logic.
 /// </summary>
